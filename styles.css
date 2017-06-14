@@ -1,0 +1,46 @@
+*{
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+ul{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+li{
+  margin: 1rem;
+  flex: 0 1 15%;
+  text-align: center;
+}
+
+.customer_box{
+  align-items: center;
+  justify-content: center;
+}
+
+img{
+  height: 30vh;
+  width: auto;
+}
+
+h3 {
+    text-transform: capitalize;
+    border-bottom: 2px solid green;
+    width: 85%;
+    margin: auto;
+    padding: 12px;
+}
+
+h4 {
+    text-transform: uppercase;
+    font-size: 0.7em;
+    color: lightgray;
+    font-weight: 100;
+}
+
+h5 {
+    margin: 0.4rem;
+    font-weight: 100;
+}
